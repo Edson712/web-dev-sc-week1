@@ -10,42 +10,42 @@
 <body>
     <main>
         <!-- Main header, navigation menu and banner section -->
-        <header style="background-color: #f5f5ef;">
+        <header class="header" style="background-color: #f5f5ef;">
             <!-- Top header -->
-            <section>
-                <h1>
-                    <span><img height="35vh" src="media/bath.png" alt="bath">BATH</span>WARE
+            <section class="header__top">
+                <h1 class="header__top__title">
+                    <p class="header__top__title--home"><span><img height="35vh" src="media/bath.png" alt="bath">BATH</span>WARE</p>
                 </h1>
-                <div>
+                <div class="header__top__nav-menu">
                     <nav>
-                        <ul style="list-style-type: none; text-transform: uppercase;">
-                            <li>Home</li>
-                            <li>shop</li>
-                            <li>about us</li>
-                            <li>blog</li>
-                            <li>contact us</li>
+                        <ul class="header__top__nav-menu__nav-items"
+                            style="list-style-type: none; text-transform: uppercase;">
+                            <li class="header__top__nav-menu__nav-items--home">Home</li>
+                            <li class="header__top__nav-menu__nav-items--shop">shop</li>
+                            <li class="header__top__nav-menu__nav-items--about">about us</li>
+                            <li class="header__top__nav-menu__nav-items--blog">blog</li>
+                            <li class="header__top__nav-menu__nav-items--contact">contact us</li>
                         </ul>
                     </nav>
                 </div>
                 <!-- Top icons -->
-                <div>
-                    <ul style="list-style-type: none;">
-
-                        <li>
+                <div class="header__top__nav-menu__icons">
+                    <ul class="header__top__nav-menu__icons__items" style="list-style-type: none;">
+                        <li class="header__top__nav-menu__icons__items--options">
                             <img height="25vh" src="https://img.icons8.com/ios-filled/25/settings.png" alt="settings" />
                         </li>
                         <li>
                             <img height="25vh" src="https://img.icons8.com/ios/16/vertical-line.png"
                                 alt="vertical-line" />
                         </li>
-                        <li>
+                        <li class="header__top__nav-menu__icons__items--search">
                             <img height="25vh" src="https://img.icons8.com/ios-filled/25/search--v1.png"
                                 alt="search--v1" />
                         </li>
-                        <li>
+                        <li class="header__top__nav-menu__icons__items--wish">
                             <img height="25vh" src="https://img.icons8.com/ios/25/like--v1.png" alt="like--v1" />
                         </li>
-                        <li>
+                        <li class="header__top__nav-menu__icons__items--cart">
                             <img height="25vh" src="https://img.icons8.com/material/25/shopping-cart--v1.png"
                                 alt="shopping-cart--v1" />
                         </li>
@@ -53,30 +53,31 @@
                 </div>
             </section>
             <!-- Banner -->
-            <section class="banner">
-                <div class="banner__img">
+            <section class="header__banner">
+                <div class="header__banner__img">
                     <img src="/media/tub.png" alt="tub" height="400vh">
                 </div>
-                <div>
+                <section class="header__banner__text">
                     <pre>
-                        <h3>welcome to our</h3>
-                        <h2>bathrare gallery</h2>
+                        <h3>WELCOME TO OUR</h3>
+                        <h2>BATHWARE GALLERY</h2>
                         <p>
                         there are many variations of passages of lorem ipsum available, but the 
                         majority have suffered alteration in some form.
                         </p>
                     </pre>
                     <!-- Banner button -->
-                    <input style="height: 44px; width: 128px;" type="button" value="shop now">
-                </div>
+                    <input class="header__banner__text__button" style="height: 44px; width: 128px;" type="button"
+                        value="SHOP NOW">
+                </section>
             </section>
         </header>
         <!-- Main content -->
-        <section>
+        <section class="main">
             <!-- Header with navigation icons -->
-            <header>
+            <header class="main__header">
                 <nav>
-                    <ul style="list-style-type: none; text-transform: uppercase;">
+                    <ul class="main__header__items" style="list-style-type: none; text-transform: uppercase;">
                         <li>
                             <img src="media/006-faucet.png" alt="faucet" height="60vh">
                             <p>tapware</p>
